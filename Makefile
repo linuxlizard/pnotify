@@ -1,6 +1,9 @@
 # Debian-ish
 # sudo apt-get install linux-headers-$(uname -r)
 #
+# Raspberry Pi
+# sudo apt-get install raspberrypi-kernel-headers
+#
 # RedHat-ish
 # sudo dnf install kernel-devel kernel-headers
 
