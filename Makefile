@@ -14,3 +14,7 @@ all:
 
 clean:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+	$(RM) inotify-example.o inotify-example
+
+CFLAGS += -g -Wall
+inotify-example:inotify-example.o
